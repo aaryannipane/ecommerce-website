@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node backend/server.js",
-    "dev":"nodemon backend/server.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "author": "aryan nipane",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
